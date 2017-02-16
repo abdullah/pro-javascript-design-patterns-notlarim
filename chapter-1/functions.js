@@ -21,7 +21,7 @@ var baz =  (function(foo,bar){
 console.log(baz)
 
 
-//Closuere protected variable space
+//Closure protected variable space
 /** 
  * JavaScript function level scope'a sahiptir
  * baz2 çalıştırıldığında 20 sonucunu verecek fakat foo ve bar'a ulaşamayacaktır 
