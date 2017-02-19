@@ -1,9 +1,8 @@
-
 /** 
  * Executed Immediately
  * Anında çalışan anonymous fonsksiyon -- Magic method olarakta geçiyor
  */
-(function(){
+(function() {
     var foo = 10;
     var bar = 2;
     console.log(foo * bar)
@@ -14,10 +13,10 @@
  * Parametre alabilir
  * Bir değişkene atanabilir
  */
-var baz =  (function(foo,bar){
-    return foo * bar
-})(20,2)
-// Baz 40 yapar
+var baz = (function(foo, bar) {
+        return foo * bar
+    })(20, 2)
+    // Baz 40 yapar
 console.log(baz)
 
 
@@ -29,10 +28,10 @@ console.log(baz)
  */
 var baz2;
 
-(function(){
+(function() {
     var foo = 10;
     var bar = 2;
-    baz2 = function(){
+    baz2 = function() {
         return foo * bar
     }
 })();
